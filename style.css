@@ -1,0 +1,326 @@
+#last{
+    width: 50%;
+}
+#Layer_2 {
+    height: 80%;
+    width: 80%;
+}
+#h11{
+    font-size: 47px;
+    font-family: Graphik, sans-serif;
+    font-weight: bold;
+}
+#p11{
+    font-family: Graphik, sans-serif;
+    font-size: 17px;
+    color: #444854;
+    line-height: 27px;
+}
+#buttonMain{
+    background-color: #0276FF;
+}
+#h12{
+   
+    font-size: 40px;
+    font-family: Graphik, sans-serif;
+    font-weight: bold;
+    text-align: start;
+}
+#p12{
+    font-family: Graphik, sans-serif;
+    font-size: 17px;
+    color: #444854;
+    line-height: 33px;
+    text-align: start;
+}
+#container1{
+    background-color: #E8F7FF;
+}
+#container2{
+    background-color: #FFFADE;
+}
+#container3{
+    background-color: #E8F7FF;
+    padding: 6%;
+}
+#button1{
+    padding: 4%;
+}
+
+#Layer_1 {
+    height: 100px;
+    width: 200px;
+}
+
+
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 70vh;
+    width: 100%;
+    
+}
+.sec1>.main{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0276FF;
+    flex-direction: column;
+}
+
+#button2{
+    background-color: #fff;
+    color: #0276FF;
+    font-weight: bold;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+}
+#button2:hover{
+    color: rgb(126, 126, 172);
+}
+#nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 15vh;
+    width: 100vw;
+    z-index: 10; 
+    transition:100ms ease;
+    background:transparent;
+}
+#nav.scrolled{
+    background-color: #fff;
+   
+}
+/* body{min-height:100vh;} */
+
+nav>a>img{
+    width: 50%;
+    margin-top: 16px;
+    margin-left: 11%;
+}
+.navBody{
+    margin: 10%;
+    height: 50vh;
+    margin-top: 15%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#carouselExampleControl{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('image/header1.jpeg');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+.API{
+    margin-top: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+.mainDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    height: 10vh;
+    width: 100%;
+    border: 1px solid rgb(223, 223, 223);
+}
+.mainDivMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    width: 50%;
+    cursor: pointer;
+}
+.extra{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+}
+.extra>h5{
+    font-weight: 300;
+    font-size: 17px;
+}
+.MAINDIV{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.mainDivMain2{
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+    width: 50%;
+    height: 40vh;
+}
+.mainDivMain2>input{
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 2%;
+    outline: gray;
+}
+.MainSecond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ////////////////////////////////////// */
+.SubMain2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#myUl{
+    width: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+    height: 35vh;
+}
+#myUl>li{
+    height: 7vh;
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    cursor: pointer;
+}
+#myUl>li>span{
+    color: rgb(180, 180, 180);
+    padding: 10px;
+    margin-top: 10% !important;
+}
+#myUl>li:hover{
+    background-color: rgb(230, 227, 227);
+}
+#myUl>li>span{
+
+    padding: 5%;
+}
+#myInput{
+    height: 7vh;
+
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 37vh;
+    background-color: #fff;
+}
+#icons>img{
+    height: 30%;
+    width: 30%;
+}
+.extra1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+}
+.extra1>h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 1%;
+    text-align: center;
+}
+.mainOutput{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.mainOutput>i{
+    font-size: 2rem;
+    color: rgb(190, 0, 0);
+}
+#iconsExtra{
+    color: green;
+}
+.handShake{
+    width: 550vw;
+}
+
+#MAINbox{
+    /* width: 100% !important; */
+}
+
+#boxes{
+}
+/* //////////////////////////////////// TOGGLE///////////////////////////////////// */
+
+.toggles{
+    width: 80%;
+    padding: 3%;
+}
+.subToggles>div>h1{
+    font-size: 25px;
+}
+.subToggles{
+    background-color: #fff;
+    width: 100%;
+    padding: 5%;
+    border: 1px solid rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.subToggles1{
+    width: 100%;
+    padding: 5%;
+    background-color: #fff;
+    border: 1px solid rgb(212, 212, 212);
+    display: none;
+}
+.subToggles1>p{
+    color: rgb(167, 167, 167);
+    font-size: 18px;
+    line-height: 40px;
+}
+#change{
+    font-size: 30px;
+}
+
+
+
+/* MEDIA Query */
+
+
+@media only screen and (max-width:600px){
+    .navBody{
+        margin-top: 40%;
+    }
+    .navBody>h4{
+        font-size: 20px;
+    }
+    #h11{
+        font-size: 30px;
+    }
+    #button1{
+        width: 150px;
+    }
+}
