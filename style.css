@@ -144,6 +144,7 @@ nav>a>img{
     width: 50%;
     cursor: pointer;
 }
+
 .extra{
     display: flex;
     justify-content: space-evenly;
@@ -170,7 +171,7 @@ nav>a>img{
     align-items: center;
     flex-direction: column;
     /* border: 1px solid #000; */
-    width: 50%;
+    width: 80%;
     height: 40vh;
 }
 .mainDivMain2>input{
@@ -326,6 +327,18 @@ nav>a>img{
     #carouselExampleControl{
         background-color: #052146;
     }
-
+    .toggles{
+        width: 95%;
+    }
+    .main{
+        text-align: center;
+        font-size: 20px;
+    }
+    #button2{
+        padding: 10px;
+    }
+    .mainDivMain{
+        width: 80%;
+    }
 
 }
