@@ -321,6 +321,11 @@ nav>a>img{
         font-size: 30px;
     }
     #button1{
-        width: 150px;
+        width: 150px !important;
     }
+    #carouselExampleControl{
+        background-color: #052146;
+    }
+
+
 }
